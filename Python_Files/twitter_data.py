@@ -3,10 +3,10 @@ from tweepy import OAuthHandler
 from tweepy.streaming import StreamListener
 import time
 
-ckey = 'Hz4hQYkP34Qpv1XqBhs5xLzrQ'
-csecret = 'Chd3tgD5VxsXDVbGjNFYLeR8YTNE6nnlHXehn6X0U89M2szFFN'
-atoken = '838993675552239616-H0oj90kNPkcErxmLZ7E5Q4xQT0Up2kj'
-asecret = '7tgeJCI2BUzs6UyxpuEg8y9cWkegKJEcoWLg40NEnl1UH'
+ckey = ''
+csecret = ''
+atoken = ''
+asecret = ''
 
 #This is a basic listener that just prints received tweets to stdout.
 class StdOutListener(StreamListener):
